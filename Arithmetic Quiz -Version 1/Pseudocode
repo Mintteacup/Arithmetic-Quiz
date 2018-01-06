@@ -1,0 +1,43 @@
+Function Test(): 
+    Print "What is your name: "
+    Input  the user’s name
+    Print “ ”
+    Print "I will be asking you 10 simple arithmetic questions, enjoy!" 
+    Set finish to False 
+    Set questions to 0 
+    Set correct to 0
+    while finish is equal to False	 
+        Sets choice to be equal ADD, SUB or MUL 
+        if questions is less an 10
+            Sets number1 to random choice between 1 and 10 
+            Sets number2 to random choice between 1 and 10 
+            Print number1 with the variable choice then number2
+            Print "What is the answer?  " 
+            Add 1 to questions 
+            if choice is equal to ADD
+                answer_ is equal to number1 with the variable ADD and number2
+                if answer is equal to answer_
+                   Print "That's the correct answer"
+                    Add 1 to correct
+                else
+                    Print "Wrong answer, the answer was" the variable answer_, "!"
+            if choice is equal to MUL 
+                answer_ is equal to number1 with the variable MUL and number2 
+                if answer is equal to answer_
+                    Print  "That's the correct answer"
+                    Add 1 to correct
+                else
+                    Print "Wrong answer, the answer was" the variable answer_,"!" 
+            if choice is equal to SUB
+                answer_ is equal to number1 with the variable SUB and number2 
+                if answer is equal to answer_
+                    Print "That's the correct answer"
+                    Add 1 to correct
+                else
+                    Print "Wrong answer, the answer was" the variable answer_, "!" 
+        else
+            Sets finish to True
+    else
+            Print "Good job" the variable name,"! You have finished the quiz"
+            Print "You scored “the variable correct "/10 questions."
+Test() 
