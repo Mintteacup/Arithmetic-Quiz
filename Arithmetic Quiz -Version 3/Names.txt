@@ -1,0 +1,10 @@
+Tim - 5 - 6 - 7
+Chloe - 6 - 3 - 9
+Zack - 9 - 10 - 8
+Bob - 7 - 4 - 6
+Bo - 8 - 9 - 9
+Adam - 8 - 4 - 5
+Joe - 3 - 2 - 5
+Zoey - 6 - 6 - 6
+Larry - 7 - 3 - 3
+Mary - 5 - 6 - 9
